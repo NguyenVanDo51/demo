@@ -19,18 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6129dc6e-4955-4bc6-b3e3-b0de809fbdf7" name="Default Changelist" comment="" />
+    <list default="true" id="6129dc6e-4955-4bc6-b3e3-b0de809fbdf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MySQL/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/linfo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpServers">
     <servers>
@@ -38,7 +42,9 @@
     </servers>
   </component>
   <component name="ProjectId" id="1hcYVAUxzIINf8adPpdIFABtfKy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,7 +90,8 @@
       <workItem from="1600346471591" duration="4728000" />
       <workItem from="1600357569404" duration="2453000" />
       <workItem from="1600392571808" duration="2292000" />
-      <workItem from="1600394880850" duration="9398000" />
+      <workItem from="1600394880850" duration="10112000" />
+      <workItem from="1600413076245" duration="5988000" />
     </task>
     <servers />
   </component>
@@ -101,12 +108,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="130" key="#Inspections" timestamp="1600400807874">
       <screen x="57" y="24" width="1543" height="876" />
     </state>
     <state x="462" y="130" key="#Inspections/57.24.1543.876@57.24.1543.876" timestamp="1600400807874" />
+    <state x="130" y="302" key="#SQL_Dialects" timestamp="1600419211598">
+      <screen x="57" y="24" width="1543" height="876" />
+    </state>
+    <state x="130" y="302" key="#SQL_Dialects/57.24.1543.876@57.24.1543.876" timestamp="1600419211598" />
     <state x="416" y="120" key="#Servers" timestamp="1600329706550">
       <screen x="57" y="24" width="1543" height="876" />
     </state>
@@ -119,10 +131,10 @@
       <screen x="57" y="24" width="1543" height="876" />
     </state>
     <state x="617" y="78" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/57.24.1543.876@57.24.1543.876" timestamp="1600400110906" />
-    <state x="616" y="207" key="FileChooserDialogImpl" timestamp="1600324431266">
+    <state x="616" y="207" key="FileChooserDialogImpl" timestamp="1600419206851">
       <screen x="57" y="24" width="1543" height="876" />
     </state>
-    <state x="616" y="207" key="FileChooserDialogImpl/57.24.1543.876@57.24.1543.876" timestamp="1600324431266" />
+    <state x="616" y="207" key="FileChooserDialogImpl/57.24.1543.876@57.24.1543.876" timestamp="1600419206851" />
     <state width="1497" height="284" key="GridCell.Tab.0.bottom" timestamp="1600331573289">
       <screen x="57" y="24" width="1543" height="876" />
     </state>
