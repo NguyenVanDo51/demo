@@ -17,6 +17,7 @@
     <button type="submit">Login</button>
 </form>
 <div>
+    Viết PHP script để tạo một form đơn giản để nhận và hiển thị tên đăng nhập
     <?php
         echo "username: " . $_POST['username'];
     ?>

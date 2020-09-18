@@ -1,4 +1,4 @@
-<h1>Redirect trong PHP</h1>
+Redirect trong PHP
 
 <?php
 sleep(3);

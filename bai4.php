@@ -1,4 +1,4 @@
-<h1>Lấy địa chỉ Client IP trong PHP</h1>
+Lấy địa chỉ Client IP trong PHP
 
 <?php
 //whether ip is from share internet

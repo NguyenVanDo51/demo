@@ -1,4 +1,4 @@
-<h1>Viết PHP script để lấy tên file hiện tại</h1>
+Viết PHP script để lấy tên file hiện tại
 
 <?php
 // in console

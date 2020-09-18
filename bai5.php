@@ -1,4 +1,4 @@
-<h1> Lấy thông tin liên quan đến trình duyệt bạn đang sử dụng (User Agent) trong PHP</h1>
+Lấy thông tin liên quan đến trình duyệt bạn đang sử dụng (User Agent) trong PHP
 
 <?php
 $arr_browsers = ["Opera", "Edg", "Chrome", "Safari", "Firefox", "MSIE", "Trident"];
