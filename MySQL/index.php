@@ -34,6 +34,7 @@ try {
         echo "User co tuoi cao nhat: <br>";
         if($result) {
             $list = [];
+            var_dump($result->fetchAll());
             foreach ($result->fetchAll() as $user) {
                 $newUser = new User($user['id'], $user['username'], $user['age'], $user['birtday'], $user['active']);
                 array_push($list, $newUser);
@@ -45,21 +46,25 @@ try {
     }
 
     try {
-        $result = $db->query("delete from users order by age desc limit 1");
-        if ($result)
+        // xoa user co tuoi thap nhat
+        $result = $db->query("SELECT id FROM users ORDER BY age limit 1");
+        if ($result) {
+            $id = $result->fetchAll()[0];
+            $delete = $db->query("DELETE FROM users WHERE id = " . $id['id']);
             echo "Da xoa user co tuoi thap nhat";
-        else
+        }        else
             echo "Xoa that bai!";
     } catch (PDOException $e) {
         var_dump($e->getMessage());
     }
 
     try {
-//        $db->query('insert into users(username, age, birtday) values ("Namenew", 90, "1955-10-10")');
-        $result = $db->query("update users set active=2 order by age desc limit 1");
-        if ($result)
-            echo "<br>Da update nguoi dung co tuoi lon nhat active = 2";
-        else
+        $result = $db->query("SELECT id FROM users ORDER BY age DESC limit 1");
+        if ($result) {
+            $id = $result->fetchAll()[0];
+            $result = $db->query("update users set active=2 WHERE id = " . $id['id']);
+            echo "<br>Da update nguoi dung co tuoi lon nhat active = 2 voi id = " . $id['id'];
+        }else
             echo "Update that bai!";
     } catch (PDOException $e) {
         var_dump($e->getMessage());
